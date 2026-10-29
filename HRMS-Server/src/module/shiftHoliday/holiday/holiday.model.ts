@@ -1,5 +1,5 @@
 import { Schema, model, Query } from 'mongoose'
-import type { HolidayInterface } from './holiday.interface'
+import type { HolidayInterface } from './holiday.interface.js'
 
 const holidaySchema = new Schema<HolidayInterface>(
   {

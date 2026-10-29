@@ -1,6 +1,6 @@
 // shift.model.ts
 import { Schema, model, Query } from 'mongoose'
-import type { ShiftInterface } from './shift.interface'
+import type { ShiftInterface } from './shift.interface.js'
 
 const shiftSchema = new Schema<ShiftInterface>(
   {

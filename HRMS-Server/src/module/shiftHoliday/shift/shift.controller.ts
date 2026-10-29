@@ -1,7 +1,7 @@
 import type { NextFunction, Request, Response } from 'express'
 import mongoose from 'mongoose'
 import Shift from './shift.model.js'
-import { logger } from '../../../config'
+import { logger } from '../../../config/index.js'
 
 const TIME_REGEX = /^([01]\d|2[0-3]):[0-5]\d$/
 const STATUSES = ['active', 'inactive']

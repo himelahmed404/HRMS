@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "HRMS-Server"
+		},
+		{
+			"path": "HRMS-Ui"
+		},	{
+			"path": "./"
+		},
+	],
+	"settings": {
+		"cSpell.words": [
+			"hrms"
+		],
+		"json.schemaDownload.enable": false
+	}
+}
